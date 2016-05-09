@@ -1,0 +1,4 @@
+*{margin:0;padding: 0;}
+.show,.drag{border-right: 1px solid #dbdbdb;height: 800px;}
+.drag .drag_one{height: 300px;background: #dddddd;}
+.drag .drag_one .swiper-container{height: 300px;}
