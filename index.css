@@ -1,7 +1,7 @@
 *{margin:0;padding: 0;}
 body{background: #FBFBFB;}
 ul li{list-style: none;}
-.col-md-4{border-right: 1px solid #ddd;min-height: 600px;}
+.col-md-4{outline-right: 1px solid #ddd;min-height: 600px;}
 #show{min-height: 600px;}
 
 .swiper-container {
@@ -27,22 +27,23 @@ ul li{list-style: none;}
     align-items: center;
 }
 #show .drag_one,#show .drag_two{position: relative;}
-.drag .drag_one,#show .drag_one{border: 1px solid #DBDBDB;}
+.drag .drag_one,#show .drag_one{outline: 1px solid #DBDBDB;}
 .drag .drag_one .swiper-container,#show .drag_one .swiper-container{height: 200px;}
 .drag .drag_one h5,.drag .drag_two h5,#show .drag_one h5,#show .drag_two h5{background: #F7F7F7;padding: 5px 0;cursor: all-scroll;}
-.ui-state-highlight{height: 150px;border: 1px solid #fcefa1;background: #fbf9ee;margin:20px auto;}
-.ui-hover{border: 1px solid #DDD;}
-.ui-active{border: 1px solid #e8c4c4;}
+.ui-state-highlight{height: 150px;outline: 1px solid #fcefa1;background: #fbf9ee;margin:20px auto;}
+.ui-hover{outline: 1px solid #DDD;}
+.ui-active{outline: 1px solid #e8c4c4;}
 
-.drag_two .products ul li,#show .products ul li{list-style: none;width: 30%;margin:5px;height: 80px;border: 1px solid #dbdbdb;float: left;}
+.drag_two .products ul li,#show .products ul li{list-style: none;width: 30%;margin:5px;height: 80px;outline: 1px solid #dbdbdb;float: left;}
 #show.ul li{margin-bottom: 20px;height: auto;overflow: hidden;}
 #J_drag_two {height: auto;overflow: hidden;}
+/*column1*/
+.remove{position: absolute;right: 10px;top: 10px;}
+#column1 #show .choose_act{outline: 1px solid red;}
+
 
 /*column3*/
 .source {text-align: center;}
 .source ul.img_list{height: auto;overflow: hidden;}
-.source ul.img_list li{width: 80px;height: 80px;float: left;border: 1px solid #DDD;margin:3px;}
+.source ul.img_list li{width: 80px;height: 80px;float: left;outline: 1px solid #DDD;margin:3px;}
 .source .pagination{margin:0 auto;width: 233px;}
-/*删除*/
-
-.remove{position: absolute;right: 10px;top: 10px;}

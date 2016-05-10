@@ -84,6 +84,11 @@ var page = {
         self.$show.on('click', '.remove', function() {
             $(this).parent().remove();
         });
+        self.$show.on('click','.ui-draggable',function(){
+            self.$show.children().removeClass('choose_act');
+            $(this).addClass('choose_act');
+            console.log($(this));
+        });
     }
 }
 page.init();
